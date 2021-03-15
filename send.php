@@ -16,7 +16,7 @@ $filenames = $_POST['files'];
 
 $conn->query("CREATE DATABASE IF NOT EXISTS `ajaxform-database`");
 
-mysqli_select_db($conn,"b2b2");
+mysqli_select_db($conn,"ajaxform-database");
 
 $sql = "CREATE TABLE IF NOT EXISTS ajaxtable(
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
